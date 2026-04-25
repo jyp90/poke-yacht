@@ -1,0 +1,9 @@
+{
+  "name": "포켓몬 로그라이크",
+  "short_name": "PokeRogue",
+  "start_url": "/",
+  "display": "fullscreen",
+  "background_color": "#1a1a2e",
+  "theme_color": "#1a1a2e",
+  "icons": []
+}
