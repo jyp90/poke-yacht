@@ -25,8 +25,17 @@
       overflow: hidden;
       overscroll-behavior: none;
     }
+    #game-container {
+      position: fixed;
+      inset: 0;
+    }
     canvas {
-      display: block;
+      display: block !important;
+      position: absolute !important;
+      top: 50% !important;
+      left: 50% !important;
+      transform: translate(-50%, -50%) !important;
+      margin: 0 !important;
       image-rendering: pixelated;
       image-rendering: crisp-edges;
       touch-action: none;
@@ -35,14 +44,14 @@
     }
     #ad-top, #ad-bottom { width: 100%; max-width: 970px; }
   </style>
-  <script type="module" crossorigin src="/poke-yacht/assets/index-CpSRDU05.js"></script>
+  <script type="module" crossorigin src="/poke-yacht/assets/index-DK1NVu_G.js"></script>
 </head>
 <body>
   <div id="ad-top" style="text-align:center; min-height:0; background:#111; display:flex; align-items:center; justify-content:center;">
     <!-- AdSense Top Banner Slot -->
   </div>
 
-  <!-- 게임 캔버스 여기 -->
+  <div id="game-container"></div>
 
   <div id="ad-bottom" style="text-align:center; min-height:0; background:#111; margin-top:0; display:flex; align-items:center; justify-content:center;">
     <!-- AdSense Bottom Banner Slot -->
